@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Web</name>
+    </assembly>
+    <members>
+        <member name="T:Web.Controllers.V1.BaseV1Controller">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Web.Controllers.V1.UserController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Web.Controllers.V1.UserController.#ctor(Services.Services.UserServices.IUserService)">
+            <summary>
+            	
+            </summary>
+            <param name="userService"></param>
+        </member>
+        <member name="M:Web.Controllers.V1.UserController.GetUsers(Models.LogicParameters.UserLogic.GetUsersInput)">
+            <summary>
+            	
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Filters.ClaimAuthorize.#ctor">
+            <summary>
+            
+            </summary>
+            <param name="claim"></param>
+        </member>
+        <member name="M:Web.Filters.ValidationFilter.OnActionExecuting(Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="T:Web.Helpers.CreateActionResult`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TResult"></typeparam>
+        </member>
+        <member name="M:Web.Helpers.CreateActionResult`1.#ctor(Models.LogicParameters.LogicResult{`0})">
+            <summary>
+            
+            </summary>
+            <param name="result"></param>
+        </member>
+        <member name="M:Web.Helpers.CreateActionResult`1.CreateResult">
+            <summary>
+            
+            </summary>
+            <param name="statusCode"></param>
+            <param name="result"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Web.Helpers.CreateActionResult`1.ExecuteAsyncResult(Microsoft.AspNetCore.Mvc.ActionContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
